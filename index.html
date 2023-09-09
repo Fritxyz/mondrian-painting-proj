@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .grid-container {
+      display: grid;
+      background-color: #000;
+      grid-template-columns: 320px 198px 153px 50px ;
+      grid-template-rows: 414px 130px 1fr 20px ;
+      width: 748px;
+      height: 748px;
+      gap: 9px;
+    }
+
+    .first-box {
+      background-color: #E72F24;
+      grid-column: span 1;
+    }
+
+    .second-box {
+      background-color:  #F0F1EC;
+      grid-column-start: 2;
+      grid-column-end: 5;
+    }
+
+    .third-box {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      grid-column: span 3;
+    }
+
+    .third-box {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+      grid-column: span 3;
+    }
+
+    .fourth-box {
+      background-color:#004592;
+      border-bottom: 10px solid black;
+    }
+
+    .fifth-box {
+      background-color:  #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .sixth-box {
+      background-color: #F0F1EC;
+    }
+
+    .seventh-box {
+      background-color: #F9D01E;
+    }
+
+    .eigth-box {
+      background-color:  #232629;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="first-box"></div>
+    <div class="second-box"></div>
+    <div class="third-box"></div>
+    <div class="fourth-box"></div>
+    <div class="fifth-box"></div>
+    <div class="sixth-box"></div>
+    <div class="seventh-box"></div>
+    <div class="eigth-box"></div>
+  </div>
+</body>
+</html>
